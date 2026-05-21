@@ -9,8 +9,20 @@ from pathlib import Path
 from common import ROOT, load_json
 
 
+def accent_summary_line(line: str) -> str:
+    escaped = html.escape(line)
+    clean = escaped.rstrip(".")
+    suffix = "." if escaped.endswith(".") else ""
+    if " " not in clean:
+        return escaped
+    prefix, emphasis = clean.rsplit(" ", 1)
+    if len(emphasis) < 3:
+        return escaped
+    return f'{prefix} <span class="accent">{emphasis}</span>{suffix}'
+
+
 def fill_template(template: str, spec: dict) -> str:
-    summary_html = "<br>".join(html.escape(line) for line in spec["summary_lines"])
+    summary_html = "<br><br>".join(accent_summary_line(line) for line in spec["summary_lines"])
     headline = html.escape(spec["headline"])
     region = html.escape(spec["region"])
     if "," in headline:
