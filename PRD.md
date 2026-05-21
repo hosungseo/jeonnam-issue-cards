@@ -24,6 +24,8 @@ Every morning, collect key issues for Jeonnam's 22 cities/counties, create one c
 - Fallback backgrounds should look like public briefings, meetings, documents, markets, roads, weather, or other news-relevant scenes rather than decorative abstract art.
 - When source articles provide a representative image, use it as the card background with a dark overlay; otherwise use a deterministic fallback background.
 - Inline orange accents should highlight the issue-driving phrase, number, risk, deadline, place, or action, not arbitrary region metadata.
+- A `contrast` variant may be inserted when two credible sources, agencies, regions, or datasets interpret the same issue differently. It should use a single thesis headline and two short labeled blocks, with orange emphasis reserved for the disagreement point.
+- Use the `contrast` variant only when the distinction materially changes public interpretation or follow-up action; do not use it for routine duplicate coverage.
 - An `outlook` variant may be appended after the region cards when the day has a clear cross-region pattern. It answers "what next?" with 2-3 short lines and can use a more atmospheric landscape/crossroads background.
 - Use the `outlook` variant only for editorial synthesis across multiple cards, not for a single city/county press release.
 - A `cta` variant may be appended as the final card when a daily bundle is sent to a broad audience. It should use a portrait/brand-style visual, one short call to action, and one access line such as Telegram channel, GitHub Pages archive, or search link.
