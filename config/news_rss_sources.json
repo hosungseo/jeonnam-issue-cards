@@ -1,0 +1,45 @@
+[
+  {
+    "name": "전남도청 보도자료",
+    "url": "http://www.jeonnam.go.kr/M7116/boardRss.do",
+    "source_type": "official_province",
+    "trust_tier": 1,
+    "purpose": "province_official"
+  },
+  {
+    "name": "노컷뉴스 지역",
+    "url": "http://rss.nocutnews.co.kr/NocutLocal.xml",
+    "source_type": "national_media_rss",
+    "trust_tier": 3,
+    "purpose": "regional_media_fallback"
+  },
+  {
+    "name": "동아일보 사회",
+    "url": "http://rss.donga.com/national.xml",
+    "source_type": "national_media_rss",
+    "trust_tier": 3,
+    "purpose": "regional_media_fallback"
+  },
+  {
+    "name": "파이낸셜뉴스 지역경제사회",
+    "url": "http://www.fnnews.com/rss/fn_realnews_society.xml",
+    "source_type": "national_media_rss",
+    "trust_tier": 3,
+    "purpose": "regional_media_fallback"
+  },
+  {
+    "name": "뉴스데일리 지역",
+    "url": "http://www.newsdaily.kr/rss/S1N4.xml",
+    "source_type": "media_rss_candidate",
+    "trust_tier": 4,
+    "purpose": "candidate_only"
+  },
+  {
+    "name": "에버뉴스 지역소식",
+    "url": "http://www.evernews.co.kr/rss/S1N9.xml",
+    "source_type": "media_rss_candidate",
+    "trust_tier": 4,
+    "purpose": "candidate_only"
+  }
+]
+

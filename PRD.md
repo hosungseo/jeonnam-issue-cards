@@ -24,6 +24,7 @@ Every morning, collect key issues for Jeonnam's 22 cities/counties, create one c
 - `insane-search`: fallback for blocked or SPA-heavy source pages.
 - OpenClaw SNS workflows: cron, channel delivery, operational memory.
 - Imagegen skills: optional reusable background asset generation only.
+- Korean news RSS gist: national/regional media RSS fallback candidates, not official city/county sources.
 
 ## Regions
 
@@ -37,10 +38,17 @@ Every morning, collect key issues for Jeonnam's 22 cities/counties, create one c
 - 기관장 동정/사진행사만 있는 보도자료
 - 지역명이 우연히 언급된 전국 기사
 
+## Source Strategy
+
+1. Official city/county board adapters are the primary source for each region.
+2. Jeonnam province RSS is the primary province-level official source.
+3. National and regional media RSS feeds are fallback/corroboration sources.
+4. Search adapters fill gaps when official boards or RSS feeds are missing.
+5. Media RSS-only candidates require stricter region and public-impact scoring than official sources.
+
 ## Success Metrics
 
 - 07:00 KST delivery success rate >= 95%
 - region misclassification <= 5 per month
 - duplicate cards <= 10 per month
 - source URL coverage = 100%
-
