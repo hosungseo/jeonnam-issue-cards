@@ -13,7 +13,14 @@ def fill_template(template: str, spec: dict) -> str:
     summary_html = "<br>".join(html.escape(line) for line in spec["summary_lines"])
     headline = html.escape(spec["headline"])
     region = html.escape(spec["region"])
-    accented_headline = headline.replace(region, f'<span class="accent">{region}</span>', 1)
+    if "," in headline:
+        prefix, emphasis = headline.split(",", 1)
+        accented_headline = f"{prefix},<br><span class=\"accent\">{emphasis.strip()}</span>"
+    elif " " in headline:
+        prefix, emphasis = headline.rsplit(" ", 1)
+        accented_headline = f"{prefix} <span class=\"accent\">{emphasis}</span>"
+    else:
+        accented_headline = headline.replace(region, f'<span class="accent">{region}</span>', 1)
     values = {
         "date_label": spec["date"],
         "region": region,
