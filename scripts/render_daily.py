@@ -11,11 +11,15 @@ from common import ROOT, load_json
 
 def fill_template(template: str, spec: dict) -> str:
     summary_html = "<br>".join(html.escape(line) for line in spec["summary_lines"])
+    headline = html.escape(spec["headline"])
+    region = html.escape(spec["region"])
+    accented_headline = headline.replace(region, f'<span class="accent">{region}</span>', 1)
     values = {
         "date_label": spec["date"],
-        "region": spec["region"],
+        "region": region,
         "category_label": spec["category_label"],
-        "headline": html.escape(spec["headline"]),
+        "headline": headline,
+        "accented_headline": accented_headline,
         "summary_html": summary_html,
         "source_label": html.escape(spec["source_label"]),
         "confidence_label": "HIGH" if spec["confidence"] == "high" else "MEDIUM",
@@ -59,4 +63,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
