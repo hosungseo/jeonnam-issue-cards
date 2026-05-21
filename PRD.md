@@ -26,6 +26,8 @@ Every morning, collect key issues for Jeonnam's 22 cities/counties, create one c
 - Inline orange accents should highlight the issue-driving phrase, number, risk, deadline, place, or action, not arbitrary region metadata.
 - An `outlook` variant may be appended after the region cards when the day has a clear cross-region pattern. It answers "what next?" with 2-3 short lines and can use a more atmospheric landscape/crossroads background.
 - Use the `outlook` variant only for editorial synthesis across multiple cards, not for a single city/county press release.
+- A `cta` variant may be appended as the final card when a daily bundle is sent to a broad audience. It should use a portrait/brand-style visual, one short call to action, and one access line such as Telegram channel, GitHub Pages archive, or search link.
+- The `cta` variant should not repeat news content. It exists only to guide readers to the full archive, subscribe/share destination, or source index.
 
 ## Reference Architecture
 
