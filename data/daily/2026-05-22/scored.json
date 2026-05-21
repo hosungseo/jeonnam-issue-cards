@@ -1,0 +1,47 @@
+[
+  {
+    "title": "여수시, 장마철 침수 취약도로 사전 점검 강화",
+    "body": "여수시는 장마철을 앞두고 침수 취약도로와 해안 저지대 배수시설을 점검하고 교통 통제 대응체계를 정비했다.",
+    "url": "https://www.yeosu.go.kr/press/2026/safety-road-check",
+    "published_at": "2026-05-22",
+    "source_name": "여수시",
+    "source_type": "official_city",
+    "source_method": "fixture",
+    "region": "여수시",
+    "category": "safety",
+    "score": 15,
+    "normalized_url": "https://yeosu.go.kr/press/2026/safety-road-check",
+    "title_key": "여수시,장마철침수취약도로사전점검강화",
+    "confidence": "high"
+  },
+  {
+    "title": "순천시, 청년 창업공간 입주기업 추가 모집",
+    "body": "순천시는 지역 청년 창업 지원을 위해 창업공간 입주기업을 추가 모집하고 멘토링과 사업화 자금을 연계한다.",
+    "url": "https://www.suncheon.go.kr/press/2026/youth-startup-space",
+    "published_at": "2026-05-22",
+    "source_name": "순천시",
+    "source_type": "official_city",
+    "source_method": "fixture",
+    "region": "순천시",
+    "category": "welfare",
+    "score": 15,
+    "normalized_url": "https://suncheon.go.kr/press/2026/youth-startup-space",
+    "title_key": "순천시,청년창업공간입주기업추가모집",
+    "confidence": "high"
+  },
+  {
+    "title": "목포시, 해상케이블카 주변 관광 동선 개선 사업 착수",
+    "body": "목포시는 주요 관광지 방문객 분산과 보행 안전을 위해 관광 동선 개선 사업을 시작한다고 밝혔다.",
+    "url": "https://www.mokpo.go.kr/press/2026/tour-route",
+    "published_at": "2026-05-21",
+    "source_name": "목포시",
+    "source_type": "official_city",
+    "source_method": "fixture",
+    "region": "목포시",
+    "category": "culture",
+    "score": 12,
+    "normalized_url": "https://mokpo.go.kr/press/2026/tour-route",
+    "title_key": "목포시,해상케이블카주변관광동선개선사업착수",
+    "confidence": "high"
+  }
+]

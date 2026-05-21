@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      width: 1080px;
+      height: 1350px;
+      font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Noto Sans KR", sans-serif;
+      background: #f7f5ef;
+      color: #16352f;
+    }
+    .card {
+      width: 1080px;
+      height: 1350px;
+      padding: 72px;
+      background:
+        radial-gradient(circle at 85% 12%, rgba(242,201,76,.32), transparent 190px),
+        radial-gradient(circle at 15% 82%, rgba(14,107,92,.16), transparent 240px),
+        linear-gradient(145deg, #f7f5ef 0%, #e9f2ed 100%);
+      position: relative;
+      overflow: hidden;
+    }
+    .map {
+      position: absolute;
+      right: -80px;
+      bottom: -40px;
+      width: 520px;
+      height: 520px;
+      border-radius: 46% 54% 58% 42%;
+      background: rgba(14,107,92,.09);
+      border: 3px solid rgba(14,107,92,.16);
+      transform: rotate(-12deg);
+    }
+    .date { font-size: 34px; color: #5c7770; font-weight: 700; }
+    .region { margin-top: 28px; font-size: 86px; line-height: 1.05; font-weight: 900; letter-spacing: -1px; }
+    .category {
+      display: inline-block;
+      margin-top: 34px;
+      padding: 16px 24px;
+      background: #0e6b5c;
+      color: white;
+      border-radius: 999px;
+      font-size: 30px;
+      font-weight: 800;
+    }
+    .headline {
+      margin-top: 58px;
+      font-size: 62px;
+      line-height: 1.18;
+      font-weight: 900;
+      max-width: 860px;
+      word-break: keep-all;
+    }
+    .summary {
+      margin-top: 44px;
+      padding: 34px 38px;
+      border-left: 14px solid #f2c94c;
+      background: rgba(255,255,255,.72);
+      border-radius: 22px;
+      font-size: 36px;
+      line-height: 1.48;
+      font-weight: 650;
+      max-width: 875px;
+      word-break: keep-all;
+    }
+    .source {
+      position: absolute;
+      left: 72px;
+      right: 72px;
+      bottom: 62px;
+      border-top: 2px solid rgba(22,53,47,.16);
+      padding-top: 22px;
+      font-size: 25px;
+      line-height: 1.35;
+      color: #5c7770;
+      font-weight: 650;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .confidence {
+      position: absolute;
+      top: 72px;
+      right: 72px;
+      font-size: 25px;
+      color: #0e6b5c;
+      font-weight: 900;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="map"></div>
+    <div class="date">2026-05-22</div>
+    <div class="confidence">HIGH</div>
+    <section class="region">순천시</section>
+    <section class="category">복지·생활</section>
+    <section class="headline">순천시, 청년 창업공간 입주기업 추가 모집</section>
+    <section class="summary">순천시는 지역 청년 창업 지원을 위해 창업공간 입주기업을 추가 모집하고 멘토…<br>주민 생활 영향과 후속 조치가 확인된 이슈입니다.</section>
+    <footer class="source">출처: 순천시 · suncheon.go.kr</footer>
+  </main>
+</body>
+</html>

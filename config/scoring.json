@@ -1,0 +1,18 @@
+{
+  "source_scores": {
+    "official_city": 5,
+    "official_province": 4,
+    "central_gov": 3,
+    "local_media": 2,
+    "search_fallback": 1
+  },
+  "category_keywords": {
+    "safety": ["재난", "안전", "교통", "통제", "호우", "산불", "침수", "대피"],
+    "welfare": ["복지", "지원금", "돌봄", "의료", "취약계층", "청년", "노인"],
+    "economy": ["예산", "투자", "산업", "기업", "일자리", "공모", "선정", "항만"],
+    "agri_marine": ["농업", "수산", "어업", "해양", "양식", "어촌", "쌀"],
+    "culture": ["축제", "관광", "문화", "체육", "전시", "공연"]
+  },
+  "exclude_keywords": ["인사발령", "인사 발령", "입찰", "수의계약", "채용", "기관장 동정"]
+}
+
