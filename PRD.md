@@ -11,7 +11,7 @@ Every morning, collect key issues for Jeonnam's 22 cities/counties, create one c
 3. Score candidates by relevance, public impact, source quality, and recency.
 4. Deduplicate repeated URL/title items.
 5. Select at most one primary issue per region.
-6. Build card specs with headline, 2-3 summary lines, category, confidence, and sources.
+6. Build one daily card spec with headline, 3 summary paragraphs, category, confidence, and sources.
 7. Render 1080x1350 PNG cards via HTML/CSS.
 8. Run QC gates.
 9. Prepare Telegram dry-run/send payload.
@@ -19,7 +19,7 @@ Every morning, collect key issues for Jeonnam's 22 cities/counties, create one c
 
 ## Card Design System
 
-- Default region cards use a dark editorial photo-overlay style: one strong headline, blue emphasis, compact body copy, and a small source footer.
+- Default region cards use a dark editorial photo-overlay style: one strong headline, blue emphasis, fuller 3-paragraph body copy, and a small source footer.
 - Metadata such as category, confidence, and date stays in the card spec for audit, but is not shown prominently on the card.
 - Fallback backgrounds should look like public briefings, meetings, documents, markets, roads, weather, or other news-relevant scenes rather than decorative abstract art.
 - When source articles provide a representative image, use it as the card background with a dark overlay; otherwise use a deterministic fallback background.
