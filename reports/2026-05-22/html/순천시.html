@@ -37,6 +37,51 @@
         linear-gradient(135deg, #1a1f20 0%, #7a5739 48%, #101517 100%);
       filter: contrast(1.05) brightness(.68) saturate(.82);
     }
+    .card.category-safety .photo {
+      background:
+        linear-gradient(0deg, rgba(8,13,16,.98) 0 33%, transparent 33%),
+        linear-gradient(90deg, transparent 0 46%, rgba(240,188,74,.42) 46% 48%, transparent 48%),
+        radial-gradient(ellipse at 58% 28%, rgba(88,120,132,.54) 0 240px, transparent 242px),
+        linear-gradient(16deg, transparent 0 42%, rgba(120,132,136,.38) 43% 48%, transparent 49%),
+        linear-gradient(135deg, #1a2228 0%, #3e4b4e 45%, #090d11 100%);
+      filter: contrast(1.12) brightness(.66) saturate(.65);
+    }
+    .card.category-welfare .photo {
+      background:
+        linear-gradient(90deg, rgba(77,48,31,.78) 0 18%, transparent 18% 82%, rgba(78,48,31,.78) 82% 100%),
+        linear-gradient(0deg, transparent 0 48%, rgba(238,224,196,.2) 48% 50%, transparent 50%),
+        radial-gradient(ellipse at 48% 48%, rgba(237,224,197,.42) 0 210px, transparent 212px),
+        radial-gradient(circle at 34% 55%, rgba(34,38,42,.72) 0 46px, transparent 48px),
+        radial-gradient(circle at 58% 53%, rgba(34,38,42,.68) 0 48px, transparent 50px),
+        radial-gradient(circle at 78% 60%, rgba(34,38,42,.64) 0 50px, transparent 52px),
+        linear-gradient(90deg, transparent 0 26%, rgba(164,105,54,.5) 26% 75%, transparent 75%),
+        repeating-linear-gradient(90deg, rgba(255,255,255,.08) 0 8px, transparent 8px 70px),
+        linear-gradient(135deg, #1a1f20 0%, #7a5739 48%, #101517 100%);
+    }
+    .card.category-culture .photo {
+      background:
+        radial-gradient(ellipse at 70% 34%, rgba(72,116,118,.42) 0 220px, transparent 222px),
+        linear-gradient(0deg, rgba(5,8,9,.98) 0 28%, transparent 28%),
+        linear-gradient(18deg, transparent 0 42%, rgba(235,225,178,.32) 42% 45%, transparent 45%),
+        linear-gradient(135deg, #111817 0%, #314b43 48%, #0a0d0d 100%);
+      filter: contrast(1.08) brightness(.68) saturate(.78);
+    }
+    .card.category-economy .photo {
+      background:
+        radial-gradient(ellipse at 76% 28%, rgba(44,98,132,.46) 0 230px, transparent 232px),
+        repeating-linear-gradient(90deg, rgba(255,255,255,.12) 0 3px, transparent 3px 62px),
+        linear-gradient(0deg, transparent 0 58%, rgba(54,150,120,.38) 58% 60%, transparent 60%),
+        linear-gradient(135deg, #071010 0%, #12302c 44%, #040608 100%);
+      filter: contrast(1.12) brightness(.66) saturate(.8);
+    }
+    .card.category-agri_marine .photo {
+      background:
+        radial-gradient(ellipse at 78% 32%, rgba(36,118,132,.48) 0 240px, transparent 242px),
+        linear-gradient(12deg, transparent 0 52%, rgba(54,128,114,.38) 52% 56%, transparent 56%),
+        linear-gradient(0deg, rgba(5,10,12,.95) 0 32%, transparent 32%),
+        linear-gradient(135deg, #0b1819 0%, #24534d 48%, #071011 100%);
+      filter: contrast(1.08) brightness(.66) saturate(.78);
+    }
     .photo::before {
       content: "순천시";
       position: absolute;
@@ -158,7 +203,7 @@
   </style>
 </head>
 <body>
-  <main class="card">
+  <main class="card category-welfare">
     <div class="photo"></div>
     <div class="topline">전남 22개 시군구 오늘의 이슈</div>
     <div class="brand">jeonnam.local</div>

@@ -36,6 +36,7 @@ def fill_template(template: str, spec: dict) -> str:
     values = {
         "date_label": spec["date"],
         "region": region,
+        "category": html.escape(spec["category"]),
         "category_label": spec["category_label"],
         "headline": headline,
         "accented_headline": accented_headline,
