@@ -17,10 +17,18 @@ CATEGORY_LABELS = {
 
 def summarize(item: dict) -> list[str]:
     body = item.get("body", "").strip()
-    if len(body) <= 42:
+    if len(body) <= 34:
         return [body]
-    first = body[:42].rstrip() + "…"
-    second = "주민 생활 영향과 후속 조치가 확인된 이슈입니다."
+    first = body[:34].rstrip() + "…"
+    category = item.get("category")
+    second_by_category = {
+        "safety": "장마 전 점검이 시작됐습니다.",
+        "welfare": "모집과 지원 일정이 열렸습니다.",
+        "economy": "지역 예산과 일자리로 이어집니다.",
+        "agri_marine": "현장 대응이 본격화됩니다.",
+        "culture": "관광 동선 변화가 예고됐습니다.",
+    }
+    second = second_by_category.get(category, "후속 조치가 이어집니다.")
     return [first, second]
 
 
@@ -56,4 +64,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
