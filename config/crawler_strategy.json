@@ -23,6 +23,23 @@
       "Promote stable extracted selectors or URLs into deterministic adapters.",
       "Keep raw crawl output in data/raw for QC and reproducibility."
     ]
+  },
+  "scrapegraphai": {
+    "enabled_by_default": false,
+    "use_cases": [
+      "One-off extraction from a difficult page when selector rules are not yet known",
+      "Generating a draft extraction schema from a sample city/county board",
+      "Converting unstructured HTML, XML, JSON, or Markdown into a target JSON shape",
+      "Prototype-only search/extraction experiments"
+    ],
+    "outputs": [
+      "structured_json"
+    ],
+    "notes": [
+      "LLM-based extraction can be helpful for bootstrapping but should not be the normal daily path.",
+      "Any recurring extraction should be converted into deterministic code and tests.",
+      "Disable telemetry in automated environments where appropriate.",
+      "Archive prompts and outputs for auditability when LLM extraction is used."
+    ]
   }
 }
-
