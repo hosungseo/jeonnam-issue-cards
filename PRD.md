@@ -22,6 +22,7 @@ Every morning, collect key issues for Jeonnam's 22 cities/counties, create one c
 - `openclaw-newsroom`: source collection, SQLite dedup, scoring, editorial profile.
 - `card-news-publication-workflow`: JSON spec, validation, HTML-to-PNG rendering.
 - `insane-search`: fallback for blocked or SPA-heavy source pages.
+- `crawl4ai`: browser/Markdown extraction fallback for inconsistent city/county HTML boards.
 - OpenClaw SNS workflows: cron, channel delivery, operational memory.
 - Imagegen skills: optional reusable background asset generation only.
 - Korean news RSS gist: national/regional media RSS fallback candidates, not official city/county sources.
@@ -45,6 +46,16 @@ Every morning, collect key issues for Jeonnam's 22 cities/counties, create one c
 3. National and regional media RSS feeds are fallback/corroboration sources.
 4. Search adapters fill gaps when official boards or RSS feeds are missing.
 5. Media RSS-only candidates require stricter region and public-impact scoring than official sources.
+6. Crawl4AI-style browser/Markdown extraction is used when a city/county HTML board is dynamic, inconsistent, or hard to parse with static selectors.
+7. Successful Crawl4AI discoveries should be promoted into deterministic adapters for recurring runs.
+
+## Crawler Adapter Policy
+
+- Basic RSS and static HTML adapters should run first because they are fast and reproducible.
+- Crawl4AI is optional fallback infrastructure for difficult public pages, not a replacement for source-specific adapters.
+- Raw Markdown, extracted links, and metadata from Crawl4AI runs must be archived under `data/raw/YYYY-MM-DD/`.
+- A source method field must distinguish `rss`, `html_board`, `crawl4ai_markdown`, and `search_fallback`.
+- Browser-based crawls should be capped by page count and timeout to avoid delaying the 07:00 delivery.
 
 ## Success Metrics
 

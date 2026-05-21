@@ -1,0 +1,28 @@
+{
+  "default_order": [
+    "rss",
+    "html_board",
+    "crawl4ai_markdown",
+    "search_fallback"
+  ],
+  "crawl4ai": {
+    "enabled_by_default": false,
+    "use_cases": [
+      "HTML board pages with inconsistent markup",
+      "JavaScript-rendered pages where static requests miss content",
+      "detail pages that need clean Markdown extraction",
+      "sites requiring browser-like session handling"
+    ],
+    "outputs": [
+      "markdown",
+      "links",
+      "metadata"
+    ],
+    "notes": [
+      "Use as a fallback or adapter bootstrap tool, not as the only primary source.",
+      "Promote stable extracted selectors or URLs into deterministic adapters.",
+      "Keep raw crawl output in data/raw for QC and reproducibility."
+    ]
+  }
+}
+
