@@ -17,6 +17,16 @@ Every morning, collect key issues for Jeonnam's 22 cities/counties, create one c
 9. Prepare Telegram dry-run/send payload.
 10. Archive daily artifacts.
 
+## Card Design System
+
+- Default region cards use a dark editorial photo-overlay style: one strong headline, orange emphasis, compact body copy, and a small source footer.
+- Metadata such as category, confidence, and date stays in the card spec for audit, but is not shown prominently on the card.
+- Fallback backgrounds should look like public briefings, meetings, documents, markets, roads, weather, or other news-relevant scenes rather than decorative abstract art.
+- When source articles provide a representative image, use it as the card background with a dark overlay; otherwise use a deterministic fallback background.
+- Inline orange accents should highlight the issue-driving phrase, number, risk, deadline, place, or action, not arbitrary region metadata.
+- An `outlook` variant may be appended after the region cards when the day has a clear cross-region pattern. It answers "what next?" with 2-3 short lines and can use a more atmospheric landscape/crossroads background.
+- Use the `outlook` variant only for editorial synthesis across multiple cards, not for a single city/county press release.
+
 ## Reference Architecture
 
 - `openclaw-newsroom`: source collection, SQLite dedup, scoring, editorial profile.
