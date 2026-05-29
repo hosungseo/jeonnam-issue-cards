@@ -77,6 +77,34 @@
       },
       "source_type": "official_city",
       "trust_tier": 1
+    },
+    {
+      "region": "곡성군",
+      "source_name": "곡성군 보도자료",
+      "url": "https://www.gokseong.go.kr/kr/board/list.do?bbsId=BBS_000000000000151&menuNo=102001002000",
+      "list_selector": "tbody tr",
+      "item": {
+        "title": "td.tit a",
+        "url": "td.tit a@href",
+        "date": "td.date",
+        "date_format": "%Y-%m-%d"
+      },
+      "source_type": "official_county",
+      "trust_tier": 1
+    },
+    {
+      "region": "구례군",
+      "source_name": "구례군 보도자료",
+      "url": "https://www.gurye.go.kr/board/list.do?bbsId=BBS_0000000000000300&menuNo=115004006000",
+      "list_selector": "li",
+      "item": {
+        "title": "span.tit",
+        "url": "a@href",
+        "date": "span.date",
+        "date_format": "%Y-%m-%d"
+      },
+      "source_type": "official_county",
+      "trust_tier": 1
     }
   ]
 }
