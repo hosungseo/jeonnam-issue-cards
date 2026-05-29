@@ -2,8 +2,30 @@
 from __future__ import annotations
 
 import argparse
+import re
 
 from common import ROOT, load_json, short_source, write_json
+
+
+def _clean_body(body: str) -> str:
+    """Flatten whitespace/bullets from board or RSS body text."""
+    text = re.sub(r"\s+", " ", body.replace("\r", " ").replace("\n", " "))
+    text = re.sub(r"^[-·•\s]+", "", text)
+    return text.strip()
+
+
+def _lead_sentence(body: str, limit: int = 60) -> str:
+    """Take a clean lead snippet, cutting on a word/clause boundary."""
+    body = _clean_body(body)
+    if len(body) <= limit:
+        return body
+    cut = body[:limit]
+    # prefer to end at the last clause/sentence boundary within the window
+    boundary = max(cut.rfind("."), cut.rfind("。"), cut.rfind(", "),
+                   cut.rfind(" "))
+    if boundary >= limit // 2:
+        cut = cut[:boundary]
+    return cut.rstrip(" ,·-") + "…"
 
 CATEGORY_LABELS = {
     "safety": "안전·교통",
@@ -16,11 +38,7 @@ CATEGORY_LABELS = {
 
 
 def summarize(item: dict) -> list[str]:
-    body = item.get("body", "").strip()
-    if len(body) <= 54:
-        first = body
-    else:
-        first = body[:54].rstrip() + "…"
+    first = _lead_sentence(item.get("body", ""))
     category = item.get("category")
     context_by_category = {
         "safety": "주요 위험 구간을 먼저 확인하고 현장 보완 순서를 정합니다.",
