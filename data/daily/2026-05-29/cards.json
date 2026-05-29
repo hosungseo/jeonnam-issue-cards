@@ -16,5 +16,185 @@
     "source_label": "목포시 보도자료 · mokpo.go.kr",
     "confidence": "high",
     "score": 15
+  },
+  {
+    "date": "2026-05-29",
+    "region": "순천시",
+    "category": "welfare",
+    "category_label": "복지·생활",
+    "headline": "순천시청소년상담복지센터 「찾아가는 청소년동반자」 프로그램 신청 안내",
+    "summary_lines": [
+      "11676순천시청소년상담복지센터 「찾아가는 청소년동반자」 프로그램 신청…",
+      "대상자와 신청 일정을 함께 안내해 참여 기회를 넓힙니다.",
+      "모집 이후 지원 절차를 확인해야 합니다."
+    ],
+    "source_urls": [
+      "https://www.suncheon.go.kr/kr/news/?boardId=BBS_0000000000000130&mode=view&cntId=12327&category=&pageIdx="
+    ],
+    "source_label": "순천시 시정소식 · suncheon.go.kr",
+    "confidence": "high",
+    "score": 13
+  },
+  {
+    "date": "2026-05-29",
+    "region": "여수시",
+    "category": "welfare",
+    "category_label": "복지·생활",
+    "headline": "비오엠건설, 여수시 저소득 출산가구 위해 후원금 5천만 원 기탁",
+    "summary_lines": [
+      "30344복지비오엠건설, 여수시 저소득 출산가구 위해 후원금 5천만 원…",
+      "대상자와 신청 일정을 함께 안내해 참여 기회를 넓힙니다.",
+      "모집 이후 지원 절차를 확인해야 합니다."
+    ],
+    "source_urls": [
+      "https://www.yeosu.go.kr/www/govt/news/release/press?idx=577539&mode=view"
+    ],
+    "source_label": "여수시 보도자료 · yeosu.go.kr",
+    "confidence": "high",
+    "score": 13
+  },
+  {
+    "date": "2026-05-29",
+    "region": "광양시",
+    "category": "culture",
+    "category_label": "문화·관광",
+    "headline": "광양시, 서울국제관광전서 ‘낮과 밤이 빛나는 광양여행’ 알린다",
+    "summary_lines": [
+      "새글광양시, 서울국제관광전서 ‘낮과 밤이 빛나는 광양여행’ 알린다",
+      "방문객 이동 흐름과 주변 상권 동선에도 변화가 예상됩니다.",
+      "관광 체감 효과는 운영 방식에 달려 있습니다."
+    ],
+    "source_urls": [
+      "https://gwangyang.go.kr/board.es?mid=a11007000000&bid=0057&act=view&list_no=200440&tag=&nPage=1"
+    ],
+    "source_label": "광양시 보도자료 · gwangyang.go.kr",
+    "confidence": "high",
+    "score": 12
+  },
+  {
+    "date": "2026-05-29",
+    "region": "나주시",
+    "category": "safety",
+    "category_label": "안전·교통",
+    "headline": "전남동물위생시험소, ASF 재유입 차단 정밀검사 강화",
+    "summary_lines": [
+      "전남동물위생시험소, ASF 재유입 차단 정밀검사 강화<br />- 이동제한 해제 이후…",
+      "주요 위험 구간을 먼저 확인하고 현장 보완 순서를 정합니다.",
+      "장마 전 사전 대응 속도가 관건입니다."
+    ],
+    "source_urls": [
+      "http://www.jeonnam.go.kr/M7116/boardView.do?seq=1961671&menuId=jeonnam0202000000"
+    ],
+    "source_label": "전남도청 보도자료 · jeonnam.go.kr",
+    "confidence": "high",
+    "score": 10
+  },
+  {
+    "date": "2026-05-29",
+    "region": "고흥군",
+    "category": "welfare",
+    "category_label": "복지·생활",
+    "headline": "고흥 청년농, 스마트팜·토경 재배로 프리미엄 채소시장 도전",
+    "summary_lines": [
+      "고흥 청년농, 스마트팜·토경 재배로 프리미엄 채소시장 도전<br />- 거북이농장 신정빈…",
+      "대상자와 신청 일정을 함께 안내해 참여 기회를 넓힙니다.",
+      "모집 이후 지원 절차를 확인해야 합니다."
+    ],
+    "source_urls": [
+      "http://www.jeonnam.go.kr/M7116/boardView.do?seq=1961664&menuId=jeonnam0202000000"
+    ],
+    "source_label": "전남도청 보도자료 · jeonnam.go.kr",
+    "confidence": "medium",
+    "score": 8
+  },
+  {
+    "date": "2026-05-29",
+    "region": "무안군",
+    "category": "safety",
+    "category_label": "안전·교통",
+    "headline": "전남도, 지방선거 사전투표소 준비상황 점검",
+    "summary_lines": [
+      "전남도, 지방선거 사전투표소 준비상황 점검<br />- 황기연 부지사, 무안 삼향읍서…",
+      "주요 위험 구간을 먼저 확인하고 현장 보완 순서를 정합니다.",
+      "장마 전 사전 대응 속도가 관건입니다."
+    ],
+    "source_urls": [
+      "http://www.jeonnam.go.kr/M7116/boardView.do?seq=1961670&menuId=jeonnam0202000000"
+    ],
+    "source_label": "전남도청 보도자료 · jeonnam.go.kr",
+    "confidence": "medium",
+    "score": 8
+  },
+  {
+    "date": "2026-05-29",
+    "region": "장흥군",
+    "category": "culture",
+    "category_label": "문화·관광",
+    "headline": "장흥군가족센터, 다문화가족 법률서비스 참여자 모집 안내",
+    "summary_lines": [
+      "6,570장흥군가족센터, 다문화가족 법률서비스 참여자 모집…",
+      "방문객 이동 흐름과 주변 상권 동선에도 변화가 예상됩니다.",
+      "관광 체감 효과는 운영 방식에 달려 있습니다."
+    ],
+    "source_urls": [
+      "https://www.jangheung.go.kr/www/organization/news/notice?idx=373560&mode=view"
+    ],
+    "source_label": "장흥군 보도자료 · jangheung.go.kr",
+    "confidence": "medium",
+    "score": 7
+  },
+  {
+    "date": "2026-05-29",
+    "region": "함평군",
+    "category": "culture",
+    "category_label": "문화·관광",
+    "headline": "함평군, 학교농공단지 복합문화센터 준공식 성료",
+    "summary_lines": [
+      "제목함평군, 학교농공단지 복합문화센터 준공식 성료",
+      "방문객 이동 흐름과 주변 상권 동선에도 변화가 예상됩니다.",
+      "관광 체감 효과는 운영 방식에 달려 있습니다."
+    ],
+    "source_urls": [
+      "https://www.hampyeong.go.kr/boardView.do?pageId=www275&boardId=NEWS&seq=4338949&movePage=1&recordCnt=10"
+    ],
+    "source_label": "함평군 보도자료 · hampyeong.go.kr",
+    "confidence": "medium",
+    "score": 7
+  },
+  {
+    "date": "2026-05-29",
+    "region": "장성군",
+    "category": "culture",
+    "category_label": "문화·관광",
+    "headline": "장성 황룡강 음악힐링축제 개막…25일까지 자연과 음악의 만남",
+    "summary_lines": [
+      "장성 황룡강에서 5월 23일부터 25일까지 음악힐링축제가 열린다.장성군(군수 김한종)은…",
+      "방문객 이동 흐름과 주변 상권 동선에도 변화가 예상됩니다.",
+      "관광 체감 효과는 운영 방식에 달려 있습니다."
+    ],
+    "source_urls": [
+      "https://www.evernews.co.kr/news/articleView.html?idxno=101122"
+    ],
+    "source_label": "에버뉴스 지역소식 · evernews.co.kr",
+    "confidence": "medium",
+    "score": 3
+  },
+  {
+    "date": "2026-05-29",
+    "region": "화순군",
+    "category": "culture",
+    "category_label": "문화·관광",
+    "headline": "화순 봄꽃 축제 '꽃강길' 경관 전시, 5월 10일까지 연장 운영",
+    "summary_lines": [
+      "화순군(군수 구복규)이 4월 17일부터 26일까지 열린 '2026 화순 봄꽃 축제'의…",
+      "방문객 이동 흐름과 주변 상권 동선에도 변화가 예상됩니다.",
+      "관광 체감 효과는 운영 방식에 달려 있습니다."
+    ],
+    "source_urls": [
+      "https://www.evernews.co.kr/news/articleView.html?idxno=101103"
+    ],
+    "source_label": "에버뉴스 지역소식 · evernews.co.kr",
+    "confidence": "medium",
+    "score": 3
   }
 ]

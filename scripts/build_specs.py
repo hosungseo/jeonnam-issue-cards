@@ -62,18 +62,25 @@ def summarize(item: dict) -> list[str]:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--date", required=True)
+    parser.add_argument("--max-cards", type=int, default=12,
+                        help="cap on region cards in one bundle")
+    parser.add_argument("--min-score", type=int, default=0,
+                        help="drop region cards below this score")
     args = parser.parse_args()
 
     scored = load_json(ROOT / "data" / "daily" / args.date / "scored.json")
+    # scored is already sorted by score desc, so the first item per region wins
     by_region = {}
     for item in scored:
         by_region.setdefault(item["region"], item)
 
     specs = []
-    primary_items = sorted(
+    ranked = sorted(
         by_region.items(),
         key=lambda region_item: (-region_item[1]["score"], region_item[0]),
-    )[:1]
+    )
+    primary_items = [(r, it) for r, it in ranked
+                     if it["score"] >= args.min_score][:args.max_cards]
     for region, item in primary_items:
         specs.append({
             "date": args.date,
