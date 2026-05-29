@@ -83,7 +83,7 @@
       filter: contrast(1.08) brightness(.66) saturate(.78);
     }
     .photo::before {
-      content: "{{region}}";
+      content: "울산";
       position: absolute;
       left: -120px;
       top: 455px;
@@ -203,17 +203,17 @@
   </style>
 </head>
 <body>
-  <main class="card category-{{category}}">
+  <main class="card category-economy">
     <div class="photo"></div>
     <div class="topline">17개 시도 오늘의 이슈 후보</div>
     <div class="brand">gongpenclaw.kr</div>
     <section class="panel">
-      <h1 class="headline">{{accented_headline}}</h1>
-      <div class="category">{{category_label}}.</div>
-      <div class="date">• {{date_label}}</div>
-      <section class="summary">{{summary_html}}</section>
+      <h1 class="headline">울산,<br><span class="accent">산업단지 안전과 투자</span></h1>
+      <div class="category">산업·안전.</div>
+      <div class="date">• ’26.05.21. 보도 기준</div>
+      <section class="summary">’26.05.21. 보도 기준.<br><br>울산은 축제보다 산업단지 안전점검이나 기업 투자협약이 더 강한 지역형 <span class="accent">이슈입니다</span>.<br><br>공장과 항만 이미지를 활용하면 경제도시의 무게감이 <span class="accent">살아납니다</span>.</section>
     </section>
-    <footer class="source">출처: {{source_label}}</footer>
+    <footer class="source">출처: 울산광역시</footer>
   </main>
 </body>
 </html>

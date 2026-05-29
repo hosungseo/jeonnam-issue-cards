@@ -83,7 +83,7 @@
       filter: contrast(1.08) brightness(.66) saturate(.78);
     }
     .photo::before {
-      content: "{{region}}";
+      content: "충북";
       position: absolute;
       left: -120px;
       top: 455px;
@@ -203,17 +203,17 @@
   </style>
 </head>
 <body>
-  <main class="card category-{{category}}">
+  <main class="card category-safety">
     <div class="photo"></div>
     <div class="topline">17개 시도 오늘의 이슈 후보</div>
     <div class="brand">gongpenclaw.kr</div>
     <section class="panel">
-      <h1 class="headline">{{accented_headline}}</h1>
-      <div class="category">{{category_label}}.</div>
-      <div class="date">• {{date_label}}</div>
-      <section class="summary">{{summary_html}}</section>
+      <h1 class="headline">충북,<br><span class="accent">집중호우 대비 시설점검</span></h1>
+      <div class="category">재난대비.</div>
+      <div class="date">• ’26.05.21. 보도 기준</div>
+      <section class="summary">’26.05.21. 보도 기준.<br><br>충북은 축제보다 여름철 집중호우 대비 시설 안전점검이 더 선명한 <span class="accent">후보입니다</span>.<br><br>하천·교량·산사태 취약지 점검 장면이 카드뉴스에 <span class="accent">적합합니다</span>.</section>
     </section>
-    <footer class="source">출처: {{source_label}}</footer>
+    <footer class="source">출처: 충청북도</footer>
   </main>
 </body>
 </html>

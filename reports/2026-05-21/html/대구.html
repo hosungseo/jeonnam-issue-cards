@@ -83,7 +83,7 @@
       filter: contrast(1.08) brightness(.66) saturate(.78);
     }
     .photo::before {
-      content: "{{region}}";
+      content: "대구";
       position: absolute;
       left: -120px;
       top: 455px;
@@ -203,17 +203,17 @@
   </style>
 </head>
 <body>
-  <main class="card category-{{category}}">
+  <main class="card category-economy">
     <div class="photo"></div>
     <div class="topline">17개 시도 오늘의 이슈 후보</div>
     <div class="brand">gongpenclaw.kr</div>
     <section class="panel">
-      <h1 class="headline">{{accented_headline}}</h1>
-      <div class="category">{{category_label}}.</div>
-      <div class="date">• {{date_label}}</div>
-      <section class="summary">{{summary_html}}</section>
+      <h1 class="headline">대구,<br><span class="accent">산업 투자협약을 전면에</span></h1>
+      <div class="category">기업·산업.</div>
+      <div class="date">• ’26.05.21. 보도 기준</div>
+      <section class="summary">’26.05.21. 보도 기준.<br><br>대구는 소규모 행사보다 기업 투자협약이나 산업단지 경제 이슈가 카드 주제로 더 <span class="accent">적합합니다</span>.<br><br>투자액과 고용 규모가 확인되는 협약이면 임팩트가 <span class="accent">커집니다</span>.</section>
     </section>
-    <footer class="source">출처: {{source_label}}</footer>
+    <footer class="source">출처: 대구광역시</footer>
   </main>
 </body>
 </html>

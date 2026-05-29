@@ -83,7 +83,7 @@
       filter: contrast(1.08) brightness(.66) saturate(.78);
     }
     .photo::before {
-      content: "{{region}}";
+      content: "인천";
       position: absolute;
       left: -120px;
       top: 455px;
@@ -203,17 +203,17 @@
   </style>
 </head>
 <body>
-  <main class="card category-{{category}}">
+  <main class="card category-safety">
     <div class="photo"></div>
     <div class="topline">17개 시도 오늘의 이슈 후보</div>
     <div class="brand">gongpenclaw.kr</div>
     <section class="panel">
-      <h1 class="headline">{{accented_headline}}</h1>
-      <div class="category">{{category_label}}.</div>
-      <div class="date">• {{date_label}}</div>
-      <section class="summary">{{summary_html}}</section>
+      <h1 class="headline">인천,<br><span class="accent">항만·해양 안전점검</span></h1>
+      <div class="category">안전점검.</div>
+      <div class="date">• ’26.05.21. 보도 기준</div>
+      <section class="summary">’26.05.21. 보도 기준.<br><br>인천은 항만과 해양관광을 연결한 안전점검 주제가 가장 <span class="accent">자연스럽습니다</span>.<br><br>바다와 항만 시설을 배경으로 잡으면 시의성과 지역성이 같이 <span class="accent">살아납니다</span>.</section>
     </section>
-    <footer class="source">출처: {{source_label}}</footer>
+    <footer class="source">출처: 인천광역시</footer>
   </main>
 </body>
 </html>

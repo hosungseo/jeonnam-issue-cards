@@ -83,7 +83,7 @@
       filter: contrast(1.08) brightness(.66) saturate(.78);
     }
     .photo::before {
-      content: "{{region}}";
+      content: "대전";
       position: absolute;
       left: -120px;
       top: 455px;
@@ -203,17 +203,17 @@
   </style>
 </head>
 <body>
-  <main class="card category-{{category}}">
+  <main class="card category-safety">
     <div class="photo"></div>
     <div class="topline">17개 시도 오늘의 이슈 후보</div>
     <div class="brand">gongpenclaw.kr</div>
     <section class="panel">
-      <h1 class="headline">{{accented_headline}}</h1>
-      <div class="category">{{category_label}}.</div>
-      <div class="date">• {{date_label}}</div>
-      <section class="summary">{{summary_html}}</section>
+      <h1 class="headline">대전,<br><span class="accent">다중이용시설 안전점검</span></h1>
+      <div class="category">생활안전.</div>
+      <div class="date">• ’26.05.21. 보도 기준</div>
+      <section class="summary">’26.05.21. 보도 기준.<br><br>대전은 엑스포·도심 행사보다 안전점검 주제가 더 시의성 있게 <span class="accent">보입니다</span>.<br><br>식품안전과 다중이용시설 점검을 묶으면 시민 생활과 바로 <span class="accent">연결됩니다</span>.</section>
     </section>
-    <footer class="source">출처: {{source_label}}</footer>
+    <footer class="source">출처: 대전광역시</footer>
   </main>
 </body>
 </html>

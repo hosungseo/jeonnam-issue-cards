@@ -17,6 +17,7 @@ The MVP collects regional issue candidates, scores and deduplicates them, builds
 python3 scripts/collect.py --date 2026-05-22
 python3 scripts/score.py --date 2026-05-22
 python3 scripts/build_specs.py --date 2026-05-22
+python3 scripts/audit_pipeline.py --date 2026-05-22
 python3 scripts/render_daily.py --date 2026-05-22
 python3 scripts/qc.py --date 2026-05-22
 python3 scripts/send_telegram.py --date 2026-05-22 --dry-run
@@ -35,3 +36,6 @@ Or:
 - Text, sources, region names, and confidence are rendered deterministically in HTML/CSS.
 - Personnel notices, simple bid/procurement notices, and institution-head photo-op items are excluded.
 
+## Pipeline Quality
+
+`scripts/score.py` records score components, item age, and a cluster key for each surviving candidate. `scripts/audit_pipeline.py` writes `reports/YYYY-MM-DD/pipeline_quality.json` with raw/scored/card counts, source mix, region/category coverage, multi-source clusters, and warnings before rendering begins.

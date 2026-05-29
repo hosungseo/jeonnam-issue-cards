@@ -1,0 +1,274 @@
+[
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "서울",
+    "category": "culture",
+    "category_label": "대형행사",
+    "headline": "서울, DDP에서 세계도시문화축제",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "서울은 DDP를 무대로 세계 도시문화를 한곳에 모으는 대형 축제 후보가 가장 강합니다.",
+      "국제행사 성격이 분명해 사진과 제목 모두 카드뉴스에 잘 맞습니다."
+    ],
+    "source_urls": ["https://culture.seoul.go.kr"],
+    "source_label": "서울문화포털",
+    "confidence": "high",
+    "score": 90
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "부산",
+    "category": "culture",
+    "category_label": "대형행사",
+    "headline": "부산, 북항에서 세계시민축제",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "부산은 북항친수공원과 글로벌 도시 이미지를 함께 보여줄 수 있는 축제가 좋습니다.",
+      "항만 전경과 시민축제 장면을 결합하면 지역성이 선명합니다."
+    ],
+    "source_urls": ["https://korean.visitkorea.or.kr"],
+    "source_label": "대한민국 구석구석",
+    "confidence": "high",
+    "score": 88
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "대구",
+    "category": "economy",
+    "category_label": "기업·산업",
+    "headline": "대구, 산업 투자협약을 전면에",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "대구는 소규모 행사보다 기업 투자협약이나 산업단지 경제 이슈가 카드 주제로 더 적합합니다.",
+      "투자액과 고용 규모가 확인되는 협약이면 임팩트가 커집니다."
+    ],
+    "source_urls": ["https://www.daegu.go.kr"],
+    "source_label": "대구광역시",
+    "confidence": "medium",
+    "score": 80
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "인천",
+    "category": "safety",
+    "category_label": "안전점검",
+    "headline": "인천, 항만·해양 안전점검",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "인천은 항만과 해양관광을 연결한 안전점검 주제가 가장 자연스럽습니다.",
+      "바다와 항만 시설을 배경으로 잡으면 시의성과 지역성이 같이 살아납니다."
+    ],
+    "source_urls": ["https://www.incheon.go.kr"],
+    "source_label": "인천광역시",
+    "confidence": "medium",
+    "score": 84
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "광주",
+    "category": "culture",
+    "category_label": "기념행사",
+    "headline": "광주, 5·18 기념 문화행사",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "광주는 5·18 기념주간의 후속 문화행사와 시민 참여 장면이 가장 강한 후보입니다.",
+      "지역 정체성과 시의성이 뚜렷해 한 장 카드로 설명력이 높습니다."
+    ],
+    "source_urls": ["https://www.gwangju.go.kr"],
+    "source_label": "광주광역시",
+    "confidence": "medium",
+    "score": 86
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "대전",
+    "category": "safety",
+    "category_label": "생활안전",
+    "headline": "대전, 다중이용시설 안전점검",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "대전은 엑스포·도심 행사보다 안전점검 주제가 더 시의성 있게 보입니다.",
+      "식품안전과 다중이용시설 점검을 묶으면 시민 생활과 바로 연결됩니다."
+    ],
+    "source_urls": ["https://www.daejeon.go.kr"],
+    "source_label": "대전광역시",
+    "confidence": "medium",
+    "score": 87
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "울산",
+    "category": "economy",
+    "category_label": "산업·안전",
+    "headline": "울산, 산업단지 안전과 투자",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "울산은 축제보다 산업단지 안전점검이나 기업 투자협약이 더 강한 지역형 이슈입니다.",
+      "공장과 항만 이미지를 활용하면 경제도시의 무게감이 살아납니다."
+    ],
+    "source_urls": ["https://www.ulsan.go.kr"],
+    "source_label": "울산광역시",
+    "confidence": "medium",
+    "score": 82
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "세종",
+    "category": "safety",
+    "category_label": "생활안전",
+    "headline": "세종, 공공시설 안전점검",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "세종은 중앙공원·호수공원 같은 시민 이용 공간의 안전점검 주제가 어울립니다.",
+      "행정수도 이미지와 생활안전 메시지를 함께 담기 좋습니다."
+    ],
+    "source_urls": ["https://www.sejong.go.kr"],
+    "source_label": "세종특별자치시",
+    "confidence": "medium",
+    "score": 78
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "경기",
+    "category": "agri_marine",
+    "category_label": "해양관광",
+    "headline": "경기, 화성 뱃놀이축제 준비",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "경기는 화성 뱃놀이축제와 해양레저 안전을 함께 잡는 구성이 좋습니다.",
+      "대형 축제성과 계절 안전 이슈가 동시에 살아납니다."
+    ],
+    "source_urls": ["https://www.hscity.go.kr"],
+    "source_label": "화성시",
+    "confidence": "high",
+    "score": 89
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "강원",
+    "category": "safety",
+    "category_label": "관광안전",
+    "headline": "강원, 물놀이·산악 안전점검",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "강원은 여름 관광철을 앞둔 물놀이와 산악 안전점검이 가장 시의성 있습니다.",
+      "계곡과 산악 관광 이미지를 쓰면 지역성이 바로 보입니다."
+    ],
+    "source_urls": ["https://state.gwd.go.kr"],
+    "source_label": "강원특별자치도",
+    "confidence": "medium",
+    "score": 83
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "충북",
+    "category": "safety",
+    "category_label": "재난대비",
+    "headline": "충북, 집중호우 대비 시설점검",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "충북은 축제보다 여름철 집중호우 대비 시설 안전점검이 더 선명한 후보입니다.",
+      "하천·교량·산사태 취약지 점검 장면이 카드뉴스에 적합합니다."
+    ],
+    "source_urls": ["https://www.chungbuk.go.kr"],
+    "source_label": "충청북도",
+    "confidence": "medium",
+    "score": 84
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "충남",
+    "category": "agri_marine",
+    "category_label": "해양·축제",
+    "headline": "충남, 해수욕장 안전과 보령머드",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "충남은 해수욕장 개장 전 안전점검과 보령머드축제 준비를 함께 잡을 수 있습니다.",
+      "바다와 축제 키워드가 모두 강해 카드 주제로 매우 좋습니다."
+    ],
+    "source_urls": ["https://www.chungnam.go.kr"],
+    "source_label": "충청남도",
+    "confidence": "high",
+    "score": 92
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "전북",
+    "category": "economy",
+    "category_label": "기업협약",
+    "headline": "전북, 투자협약·관광거점 이슈",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "전북은 기업 투자협약이나 관광거점 조성 이슈가 카드뉴스 후보로 좋습니다.",
+      "투자액·고용·입지 정보가 확인되면 행사보다 더 강한 주제가 됩니다."
+    ],
+    "source_urls": ["https://www.jeonbuk.go.kr"],
+    "source_label": "전북특별자치도",
+    "confidence": "medium",
+    "score": 79
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "전남",
+    "category": "agri_marine",
+    "category_label": "섬·해상안전",
+    "headline": "전남, 섬·해상 관광 안전점검",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "전남은 여수·순천·보성·나주보다 섬과 해상 관광 안전점검으로 묶는 편이 시의성이 좋습니다.",
+      "바다·섬·관광지 이미지를 함께 쓰면 비주얼도 강합니다."
+    ],
+    "source_urls": ["https://www.jeonnam.go.kr"],
+    "source_label": "전라남도",
+    "confidence": "high",
+    "score": 91
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "경북",
+    "category": "culture",
+    "category_label": "역사관광",
+    "headline": "경북, 경주 역사관광 인프라",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "경북은 경주·안동 중심의 역사문화 관광 인프라 이슈가 가장 안정적인 후보입니다.",
+      "유적과 도시 전경을 쓰면 한 장에서 지역 대표성이 살아납니다."
+    ],
+    "source_urls": ["https://www.gb.go.kr"],
+    "source_label": "경상북도",
+    "confidence": "medium",
+    "score": 82
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "경남",
+    "category": "culture",
+    "category_label": "전통축제",
+    "headline": "경남, 창원 진동불꽃낙화축제",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "경남은 창원 진동불꽃낙화축제가 가장 강한 카드뉴스 후보입니다.",
+      "전통 불꽃과 항구 야경을 결합하면 비주얼 임팩트가 큽니다."
+    ],
+    "source_urls": ["https://www.changwon.go.kr"],
+    "source_label": "창원특례시",
+    "confidence": "high",
+    "score": 93
+  },
+  {
+    "date": "’26.05.21. 보도 기준",
+    "region": "제주",
+    "category": "safety",
+    "category_label": "관광안전",
+    "headline": "제주, 해수욕장·관광지 안전점검",
+    "summary_lines": [
+      "’26.05.21. 보도 기준.",
+      "제주는 축제보다 여름철 해수욕장과 관광지 안전점검이 더 시의성 있습니다.",
+      "해안도로와 바다 이미지를 쓰면 계절감이 분명합니다."
+    ],
+    "source_urls": ["https://www.jeju.go.kr"],
+    "source_label": "제주특별자치도",
+    "confidence": "medium",
+    "score": 85
+  }
+]

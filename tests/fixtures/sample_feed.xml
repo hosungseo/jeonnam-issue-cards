@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>샘플 보도자료</title>
+  <item>
+    <title>여수시, 장마철 침수 취약도로 사전 점검 강화</title>
+    <description>여수시는 장마철을 앞두고 침수 취약도로와 해안 저지대 배수시설을 점검했다.</description>
+    <link>https://www.yeosu.go.kr/press/2026/safety-road-check</link>
+    <pubDate>Fri, 29 May 2026 09:00:00 +0900</pubDate>
+  </item>
+  <item>
+    <title>전남 1분기 합계출산율 전국 1위</title>
+    <description>전남도는 1분기 합계출산율이 전국 최고를 기록했다고 밝혔다.</description>
+    <link>https://www.jeonnam.go.kr/press/2026/birthrate</link>
+    <pubDate>Thu, 28 May 2026 09:00:00 +0900</pubDate>
+  </item>
+</channel>
+</rss>

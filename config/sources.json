@@ -1,0 +1,19 @@
+{
+  "html_boards": [
+    {
+      "region": "목포시",
+      "source_name": "목포시 보도자료",
+      "url": "https://www.mokpo.go.kr/www/mokpo_news/press_release/report_material",
+      "list_selector": "div.item",
+      "item": {
+        "title": "div.title_box h3",
+        "url": "a.item_cont@href",
+        "body": "div.cont_box p",
+        "date": "dd.date",
+        "date_format": "%Y-%m-%d"
+      },
+      "source_type": "official_city",
+      "trust_tier": 1
+    }
+  ]
+}
