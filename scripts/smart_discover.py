@@ -70,6 +70,19 @@ def discover(html: str, region: str):
                if DETAIL_RE.search(a["href"]) and not NOISE_HREF.search(a["href"])]
     rows = [(_row_of(a), a) for a in details]
     rows = [(r, a) for r, a in rows if r is not None]
+
+    # CMS-agnostic fallback: rows that carry a date AND a content link are
+    # almost always board rows, regardless of the detail-href convention.
+    if len({_sig(r) for r, _ in rows}) != 1 or len(rows) < 5:
+        for el in soup.find_all(["li", "tr"]):
+            txt = el.get_text(" ", strip=True)
+            if not DATE_RE.search(txt):
+                continue
+            link = el.find("a", href=True)
+            if link is None or NOISE_HREF.search(link.get("href", "")):
+                continue
+            rows.append((el, link))
+
     if len(rows) < 5:
         return {"status": "too_few_rows", "rows": len(rows)}
 

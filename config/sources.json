@@ -119,6 +119,21 @@
       },
       "source_type": "official_county",
       "trust_tier": 1
+    },
+    {
+      "region": "장성군",
+      "source_name": "장성군 보도자료",
+      "url": "https://www.jangseong.go.kr/home/www/news/jangseong/bodo",
+      "render": true,
+      "list_selector": "tr",
+      "item": {
+        "title": "td.list_title a",
+        "url": "td.list_title a@href",
+        "date": "td.list_reg_date",
+        "date_format": "%Y-%m-%d"
+      },
+      "source_type": "official_county",
+      "trust_tier": 1
     }
   ]
 }
