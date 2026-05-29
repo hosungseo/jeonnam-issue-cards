@@ -14,6 +14,32 @@
       },
       "source_type": "official_city",
       "trust_tier": 1
+    },
+    {
+      "region": "순천시",
+      "source_name": "순천시 시정소식",
+      "url": "https://www.suncheon.go.kr/kr/news/",
+      "list_selector": "tbody tr",
+      "item": {
+        "title": "td.title a",
+        "url": "td.title a@href",
+        "date": "td.created",
+        "date_format": "%Y-%m-%d"
+      },
+      "source_type": "official_city",
+      "trust_tier": 1
+    },
+    {
+      "region": "여수시",
+      "source_name": "여수시 보도자료",
+      "url": "https://www.yeosu.go.kr/www/govt/news/release",
+      "list_selector": "tr",
+      "item": {
+        "title": "a.basic_cont",
+        "url": "a.basic_cont@href"
+      },
+      "source_type": "official_city",
+      "trust_tier": 1
     }
   ]
 }

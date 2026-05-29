@@ -14,7 +14,7 @@ def _clean_body(body: str) -> str:
     return text.strip()
 
 
-def _lead_sentence(body: str, limit: int = 60) -> str:
+def _lead_sentence(body: str, limit: int = 50) -> str:
     """Take a clean lead snippet, cutting on a word/clause boundary."""
     body = _clean_body(body)
     if len(body) <= limit:
