@@ -85,10 +85,15 @@ class HtmlBoardAdapter(SourceAdapter):
         self.source_type = board.get("source_type", "official_city")
         self.trust_tier = int(board.get("trust_tier", 1))
         self.name = board.get("source_name", self.region or self.url)
+        self.render = bool(board.get("render", False))
         self._fetch = fetch_fn or http_client.fetch
 
     def fetch(self, date: str) -> list[dict]:
-        html = self._fetch(self.url)
+        if self.render and http_client.fallback_fetch and self._fetch is http_client.fetch:
+            # JS-rendered board: go straight to the crawl4ai renderer
+            html = http_client.fallback_fetch(self.url)
+        else:
+            html = self._fetch(self.url)
         if not html:
             print(f"[html_board] no content {self.name}", file=sys.stderr)
             return []

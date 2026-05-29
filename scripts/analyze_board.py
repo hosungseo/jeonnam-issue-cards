@@ -17,7 +17,7 @@ from bs4 import BeautifulSoup
 
 import http_client
 
-DETAIL_RE = re.compile(r"(mode=view|view\.do|idx=|seq=|nttId|articleNo|bbsIdx|nttSn|/view/|boardView)")
+DETAIL_RE = re.compile(r"(mode=view|view\.do|idx=|seq=|nttId|articleNo|bbsIdx|nttSn|/view/|boardView|act=view|list_no=)")
 DATE_RE = re.compile(r"\d{4}[.\-/]\d{1,2}[.\-/]\d{1,2}")
 
 

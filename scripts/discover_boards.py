@@ -48,12 +48,21 @@ MOKPO_PATTERN = {
 }
 
 
+PRESS_HREF = re.compile(r"(news/release|news/press|/press|/release|bodo|"
+                        r"news/report|press_release|news/notice|govt/news)", re.I)
+
+
 def find_press_link(html: str, base: str):
     soup = BeautifulSoup(html, "lxml")
+    # 1) by visible link text
     for a in soup.find_all("a", href=True):
         text = a.get_text(strip=True)
         if any(k in text for k in PRESS_KEYWORDS):
             return urljoin(base, a["href"]), text
+    # 2) by href pattern (JS menus often still leave footer/sitemap anchors)
+    for a in soup.find_all("a", href=True):
+        if PRESS_HREF.search(a["href"]):
+            return urljoin(base, a["href"]), a.get_text(strip=True) or a["href"]
     return None, None
 
 

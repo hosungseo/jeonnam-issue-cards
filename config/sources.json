@@ -64,6 +64,19 @@
       },
       "source_type": "official_county",
       "trust_tier": 1
+    },
+    {
+      "region": "광양시",
+      "source_name": "광양시 보도자료",
+      "url": "https://gwangyang.go.kr/board.es?mid=a11007000000&bid=0057",
+      "render": true,
+      "list_selector": "td.list_tit",
+      "item": {
+        "title": "a",
+        "url": "a@href"
+      },
+      "source_type": "official_city",
+      "trust_tier": 1
     }
   ]
 }

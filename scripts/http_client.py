@@ -8,19 +8,41 @@ because it requires python 3.10+ and this pipeline runs on python 3.9.
 """
 from __future__ import annotations
 
+import subprocess
 import sys
 import time
+from pathlib import Path
 from typing import Callable, Optional
 
 import requests
+
+_ROOT = Path(__file__).resolve().parents[1]
+_VENV_PY = _ROOT / ".venv-crawl" / "bin" / "python"
+_CRAWL_FETCH = _ROOT / "scripts" / "crawl_fetch.py"
 
 DEFAULT_UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 DEFAULT_TIMEOUT = 10
 DEFAULT_RETRIES = 2
 
-# Optional delegate for blocked pages: fn(url) -> str | None.
-# Wired by callers that have insane-search available; default is a no-op.
-fallback_fetch: Optional[Callable[[str], Optional[str]]] = None
+def _crawl4ai_fallback(url: str) -> Optional[str]:
+    """Render a JS page via the 3.13 crawl4ai venv (subprocess)."""
+    if not _VENV_PY.exists():
+        return None
+    try:
+        proc = subprocess.run(
+            [str(_VENV_PY), str(_CRAWL_FETCH), url],
+            capture_output=True, text=True, timeout=70,
+        )
+    except (subprocess.TimeoutExpired, OSError) as exc:
+        _warn(f"crawl4ai fallback error {url}: {exc}")
+        return None
+    if proc.returncode == 0 and proc.stdout.strip():
+        return proc.stdout
+    return None
+
+
+# Delegate for blocked/JS pages. Defaults to crawl4ai when the venv exists.
+fallback_fetch: Optional[Callable[[str], Optional[str]]] = _crawl4ai_fallback
 
 
 def _warn(msg: str) -> None:

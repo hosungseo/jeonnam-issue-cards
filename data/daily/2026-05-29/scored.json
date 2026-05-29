@@ -25,7 +25,7 @@
   },
   {
     "title": "순천시청소년상담복지센터 「찾아가는 청소년동반자」 프로그램 신청 안내",
-    "body": "11676순천시청소년상담복지센터 「찾아가는 청소년동반자」 프로그램 신청 안내평생교육과2026-05-2896",
+    "body": "11676순천시청소년상담복지센터 「찾아가는 청소년동반자」 프로그램 신청 안내평생교육과2026-05-2897",
     "url": "https://www.suncheon.go.kr/kr/news/?boardId=BBS_0000000000000130&mode=view&cntId=12327&category=&pageIdx=",
     "published_at": "2026-05-28",
     "source_name": "순천시 시정소식",
@@ -288,7 +288,7 @@
   },
   {
     "title": "여수시, 하반기 ‘여수형 청년 맞춤형 인턴 사업’ 참여자 모집",
-    "body": "30353행정여수시, 하반기 ‘여수형 청년 맞춤형 인턴 사업’ 참여자 모집새로운글경제일자리과11:11:2031",
+    "body": "30353행정여수시, 하반기 ‘여수형 청년 맞춤형 인턴 사업’ 참여자 모집새로운글경제일자리과11:11:2032",
     "url": "https://www.yeosu.go.kr/www/govt/news/release/press?idx=577594&mode=view",
     "published_at": null,
     "source_name": "여수시 보도자료",
@@ -312,7 +312,7 @@
   },
   {
     "title": "여수시, 고유가 피해지원금 90% 지급… “8월 31일까지 사용하세요”",
-    "body": "30351행정여수시, 고유가 피해지원금 90% 지급… “8월 31일까지 사용하세요”새로운글경제일자리과11:06:5414",
+    "body": "30351행정여수시, 고유가 피해지원금 90% 지급… “8월 31일까지 사용하세요”새로운글경제일자리과11:06:5415",
     "url": "https://www.yeosu.go.kr/www/govt/news/release/press?idx=577592&mode=view",
     "published_at": null,
     "source_name": "여수시 보도자료",
@@ -359,6 +359,30 @@
     "confidence": "high"
   },
   {
+    "title": "광양시, 서울국제관광전서 ‘낮과 밤이 빛나는 광양여행’ 알린다",
+    "body": "새글광양시, 서울국제관광전서 ‘낮과 밤이 빛나는 광양여행’ 알린다",
+    "url": "https://gwangyang.go.kr/board.es?mid=a11007000000&bid=0057&act=view&list_no=200440&tag=&nPage=1",
+    "published_at": null,
+    "source_name": "광양시 보도자료",
+    "source_type": "official_city",
+    "source_method": "html_board",
+    "trust_tier": 1,
+    "region": "광양시",
+    "category": "culture",
+    "score": 12,
+    "score_components": {
+      "source": 5,
+      "region_in_title": 4,
+      "freshness": 0,
+      "category_signal": 3
+    },
+    "days_old": null,
+    "normalized_url": "https://gwangyang.go.kr/board.es",
+    "title_key": "광양시,서울국제관광전서‘낮과밤이빛나는광양여행’알린다",
+    "cluster_key": "광양시:culture:,서울국제관광전서‘낮과밤이빛나는광",
+    "confidence": "high"
+  },
+  {
     "title": "목포어울림도서관, 북스포츠 특별프로그램 운영",
     "body": "- 체험형 동화구연과 놀이체육 결합…오감 활용 독서문화 체험\r\n\r\n목포어울림도서관이 오는 6월 어린이들의 창의력과 신체 활동을 함께 키울 수 있는 「북스포츠」 특별프로그램을 운영한다.\r\n\r\n이번 프로그램은 가상현실(VR) 기술과 동화구연을 접목한 ‘체험형 동화구연’과 놀이·운동 활동을 통해 신체 발달과 사회성 향상을 돕는 ‘튼튼아이 놀이체육’을 결합해 운영된다.\r\n\r\n특히 어린이들이 동화 속 주인공이 되어 이야기를 직접 체험하고, 다양한 신체활동 프로그램에 참여하면서 자연스럽게 독서에 대한 흥미와 표현력을 키울 수 있도록 구성했..",
     "url": "https://www.mokpo.go.kr/www/mokpo_news/press_release/report_material?idx=545616&mode=view",
@@ -383,7 +407,7 @@
   },
   {
     "title": "「6월 순천 낙안읍성 주말상설 공연」 안내",
-    "body": "11682「6월 순천 낙안읍성 주말상설 공연」 안내낙안읍성지원사업소2026-05-2943",
+    "body": "11682「6월 순천 낙안읍성 주말상설 공연」 안내낙안읍성지원사업소2026-05-2946",
     "url": "https://www.suncheon.go.kr/kr/news/?boardId=BBS_0000000000000130&mode=view&cntId=12333&category=&pageIdx=",
     "published_at": "2026-05-29",
     "source_name": "순천시 시정소식",
@@ -406,7 +430,7 @@
   },
   {
     "title": "「2027년 유기질비료 지원사업」 신청 안내",
-    "body": "11680「2027년 유기질비료 지원사업」 신청 안내친환경농업과2026-05-2966",
+    "body": "11680「2027년 유기질비료 지원사업」 신청 안내친환경농업과2026-05-2969",
     "url": "https://www.suncheon.go.kr/kr/news/?boardId=BBS_0000000000000130&mode=view&cntId=12331&category=&pageIdx=",
     "published_at": "2026-05-29",
     "source_name": "순천시 시정소식",
@@ -452,7 +476,7 @@
   },
   {
     "title": "제2기 순천시 아동참여위원회 위원 모집 안내",
-    "body": "11675제2기 순천시 아동참여위원회 위원 모집 안내보육아동과2026-05-28112",
+    "body": "11675제2기 순천시 아동참여위원회 위원 모집 안내보육아동과2026-05-28113",
     "url": "https://www.suncheon.go.kr/kr/news/?boardId=BBS_0000000000000130&mode=view&cntId=12326&category=&pageIdx=",
     "published_at": "2026-05-28",
     "source_name": "순천시 시정소식",
@@ -475,7 +499,7 @@
   },
   {
     "title": "여수시, 제9회 전국동시지방선거 사전투표소 현장점검",
-    "body": "30347행정여수시, 제9회 전국동시지방선거 사전투표소 현장점검새로운글총무과2026-05-2827",
+    "body": "30347행정여수시, 제9회 전국동시지방선거 사전투표소 현장점검새로운글총무과2026-05-2828",
     "url": "https://www.yeosu.go.kr/www/govt/news/release/press?idx=577574&mode=view",
     "published_at": "2026-05-28",
     "source_name": "여수시 보도자료",
@@ -544,7 +568,7 @@
   },
   {
     "title": "「신대천, 윤슬 세레나데」 행사 안내",
-    "body": "11674「신대천, 윤슬 세레나데」 행사 안내문화예술과2026-05-28102",
+    "body": "11674「신대천, 윤슬 세레나데」 행사 안내문화예술과2026-05-28103",
     "url": "https://www.suncheon.go.kr/kr/news/?boardId=BBS_0000000000000130&mode=view&cntId=12325&category=&pageIdx=",
     "published_at": "2026-05-28",
     "source_name": "순천시 시정소식",
@@ -567,7 +591,7 @@
   },
   {
     "title": "K-패스(대중교통비 환급 지원사업) 혜택 안내",
-    "body": "11672K-패스(대중교통비 환급 지원사업) 혜택 안내교통정책과2026-05-28286",
+    "body": "11672K-패스(대중교통비 환급 지원사업) 혜택 안내교통정책과2026-05-28288",
     "url": "https://www.suncheon.go.kr/kr/news/?boardId=BBS_0000000000000130&mode=view&cntId=12323&category=&pageIdx=",
     "published_at": "2026-05-28",
     "source_name": "순천시 시정소식",
@@ -590,7 +614,7 @@
   },
   {
     "title": "원도심 콘텐츠 축제 「2026 원츠 순천」 개최 안내",
-    "body": "11670원도심 콘텐츠 축제 「2026 원츠 순천」 개최 안내콘텐츠정책과2026-05-28179",
+    "body": "11670원도심 콘텐츠 축제 「2026 원츠 순천」 개최 안내콘텐츠정책과2026-05-28182",
     "url": "https://www.suncheon.go.kr/kr/news/?boardId=BBS_0000000000000130&mode=view&cntId=12321&category=&pageIdx=",
     "published_at": "2026-05-28",
     "source_name": "순천시 시정소식",
@@ -636,7 +660,7 @@
   },
   {
     "title": "여수시보건소, 여름철 레지오넬라증 예방 위해 다중이용시설 점검 나서",
-    "body": "30350보건여수시보건소, 여름철 레지오넬라증 예방 위해 다중이용시설 점검 나서새로운글보건행정과10:57:159",
+    "body": "30350보건여수시보건소, 여름철 레지오넬라증 예방 위해 다중이용시설 점검 나서새로운글보건행정과10:57:1510",
     "url": "https://www.yeosu.go.kr/www/govt/news/release/press?idx=577591&mode=view",
     "published_at": null,
     "source_name": "여수시 보도자료",
@@ -659,7 +683,7 @@
   },
   {
     "title": "전국 청소년 축제 ‘제22회 대한민국청소년박람회’ 여수서 개최",
-    "body": "30348행정전국 청소년 축제 ‘제22회 대한민국청소년박람회’ 여수서 개최새로운글여성가족과2026-05-2836",
+    "body": "30348행정전국 청소년 축제 ‘제22회 대한민국청소년박람회’ 여수서 개최새로운글여성가족과2026-05-2837",
     "url": "https://www.yeosu.go.kr/www/govt/news/release/press?idx=577575&mode=view",
     "published_at": "2026-05-28",
     "source_name": "여수시 보도자료",
@@ -682,7 +706,7 @@
   },
   {
     "title": "2026여수세계섬박람회 성공 개최 기원… 30일 여수서 ‘기부런’ 열린다",
-    "body": "30345관광2026여수세계섬박람회 성공 개최 기원… 30일 여수서 ‘기부런’ 열린다새로운글관광과2026-05-2888",
+    "body": "30345관광2026여수세계섬박람회 성공 개최 기원… 30일 여수서 ‘기부런’ 열린다새로운글관광과2026-05-2890",
     "url": "https://www.yeosu.go.kr/www/govt/news/release/press?idx=577540&mode=view",
     "published_at": "2026-05-28",
     "source_name": "여수시 보도자료",
@@ -770,6 +794,190 @@
     "normalized_url": "https://yeosu.go.kr/www/govt/news/release/press",
     "title_key": "여수시,하천·계곡불법시설자진신고·철거기간운영",
     "cluster_key": "여수시:general:,하천·계곡불법시설자진신고·철거기",
+    "confidence": "medium"
+  },
+  {
+    "title": "광양시, 제9회 전국동시지방선거 사전투표소 현장점검 실시",
+    "body": "새글광양시, 제9회 전국동시지방선거 사전투표소 현장점검 실시",
+    "url": "https://gwangyang.go.kr/board.es?mid=a11007000000&bid=0057&act=view&list_no=200442&tag=&nPage=1",
+    "published_at": null,
+    "source_name": "광양시 보도자료",
+    "source_type": "official_city",
+    "source_method": "html_board",
+    "trust_tier": 1,
+    "region": "광양시",
+    "category": "general",
+    "score": 9,
+    "score_components": {
+      "source": 5,
+      "region_in_title": 4,
+      "freshness": 0
+    },
+    "days_old": null,
+    "normalized_url": "https://gwangyang.go.kr/board.es",
+    "title_key": "광양시,제9회전국동시지방선거사전투표소현장점검실시",
+    "cluster_key": "광양시:general:,제9회전국동시지방선거사전투표소현",
+    "confidence": "medium"
+  },
+  {
+    "title": "광양시어민회, 제31회 바다의 날 기념 치어 방류 행사 개최",
+    "body": "새글광양시어민회, 제31회 바다의 날 기념 치어 방류 행사 개최",
+    "url": "https://gwangyang.go.kr/board.es?mid=a11007000000&bid=0057&act=view&list_no=200441&tag=&nPage=1",
+    "published_at": null,
+    "source_name": "광양시 보도자료",
+    "source_type": "official_city",
+    "source_method": "html_board",
+    "trust_tier": 1,
+    "region": "광양시",
+    "category": "general",
+    "score": 9,
+    "score_components": {
+      "source": 5,
+      "region_in_title": 4,
+      "freshness": 0
+    },
+    "days_old": null,
+    "normalized_url": "https://gwangyang.go.kr/board.es",
+    "title_key": "광양시어민회,제31회바다의날기념치어방류행사개최",
+    "cluster_key": "광양시:general:어민회,제31회바다의날기념치어방류",
+    "confidence": "medium"
+  },
+  {
+    "title": "광양시, 「마동생태공원 도시바람길숲」 조성 완료",
+    "body": "새글광양시, 「마동생태공원 도시바람길숲」 조성 완료",
+    "url": "https://gwangyang.go.kr/board.es?mid=a11007000000&bid=0057&act=view&list_no=200439&tag=&nPage=1",
+    "published_at": null,
+    "source_name": "광양시 보도자료",
+    "source_type": "official_city",
+    "source_method": "html_board",
+    "trust_tier": 1,
+    "region": "광양시",
+    "category": "general",
+    "score": 9,
+    "score_components": {
+      "source": 5,
+      "region_in_title": 4,
+      "freshness": 0
+    },
+    "days_old": null,
+    "normalized_url": "https://gwangyang.go.kr/board.es",
+    "title_key": "광양시,「마동생태공원도시바람길숲」조성완료",
+    "cluster_key": "광양시:general:,「마동생태공원도시바람길숲」조성완",
+    "confidence": "medium"
+  },
+  {
+    "title": "광양시, 2025년 기준 경제총조사 실시",
+    "body": "새글광양시, 2025년 기준 경제총조사 실시",
+    "url": "https://gwangyang.go.kr/board.es?mid=a11007000000&bid=0057&act=view&list_no=200438&tag=&nPage=1",
+    "published_at": null,
+    "source_name": "광양시 보도자료",
+    "source_type": "official_city",
+    "source_method": "html_board",
+    "trust_tier": 1,
+    "region": "광양시",
+    "category": "general",
+    "score": 9,
+    "score_components": {
+      "source": 5,
+      "region_in_title": 4,
+      "freshness": 0
+    },
+    "days_old": null,
+    "normalized_url": "https://gwangyang.go.kr/board.es",
+    "title_key": "광양시,2025년기준경제총조사실시",
+    "cluster_key": "광양시:general:,2025년기준경제총조사실시",
+    "confidence": "medium"
+  },
+  {
+    "title": "광양시, 민간 주도형 ‘광양 배알도 육해공 체험 페스타’ 개최",
+    "body": "새글광양시, 민간 주도형 ‘광양 배알도 육해공 체험 페스타’ 개최",
+    "url": "https://gwangyang.go.kr/board.es?mid=a11007000000&bid=0057&act=view&list_no=200437&tag=&nPage=1",
+    "published_at": null,
+    "source_name": "광양시 보도자료",
+    "source_type": "official_city",
+    "source_method": "html_board",
+    "trust_tier": 1,
+    "region": "광양시",
+    "category": "general",
+    "score": 9,
+    "score_components": {
+      "source": 5,
+      "region_in_title": 4,
+      "freshness": 0
+    },
+    "days_old": null,
+    "normalized_url": "https://gwangyang.go.kr/board.es",
+    "title_key": "광양시,민간주도형‘광양배알도육해공체험페스타’개최",
+    "cluster_key": "광양시:general:,민간주도형‘광양배알도육해공체험페",
+    "confidence": "medium"
+  },
+  {
+    "title": "광양시, 2027년 유기질비료 지원사업 조기 신청 접수",
+    "body": "새글광양시, 2027년 유기질비료 지원사업 조기 신청 접수",
+    "url": "https://gwangyang.go.kr/board.es?mid=a11007000000&bid=0057&act=view&list_no=200436&tag=&nPage=1",
+    "published_at": null,
+    "source_name": "광양시 보도자료",
+    "source_type": "official_city",
+    "source_method": "html_board",
+    "trust_tier": 1,
+    "region": "광양시",
+    "category": "general",
+    "score": 9,
+    "score_components": {
+      "source": 5,
+      "region_in_title": 4,
+      "freshness": 0
+    },
+    "days_old": null,
+    "normalized_url": "https://gwangyang.go.kr/board.es",
+    "title_key": "광양시,2027년유기질비료지원사업조기신청접수",
+    "cluster_key": "광양시:general:,2027년유기질비료조기신청접수",
+    "confidence": "medium"
+  },
+  {
+    "title": "광양시가족센터, 조손가정 손자녀 심리·정서 지원 프로그램 운영",
+    "body": "새글광양시가족센터, 조손가정 손자녀 심리·정서 지원 프로그램 운영",
+    "url": "https://gwangyang.go.kr/board.es?mid=a11007000000&bid=0057&act=view&list_no=200434&tag=&nPage=1",
+    "published_at": null,
+    "source_name": "광양시 보도자료",
+    "source_type": "official_city",
+    "source_method": "html_board",
+    "trust_tier": 1,
+    "region": "광양시",
+    "category": "general",
+    "score": 9,
+    "score_components": {
+      "source": 5,
+      "region_in_title": 4,
+      "freshness": 0
+    },
+    "days_old": null,
+    "normalized_url": "https://gwangyang.go.kr/board.es",
+    "title_key": "광양시가족센터,조손가정손자녀심리·정서지원프로그램운영",
+    "cluster_key": "광양시:general:가족센터,조손가정손자녀심리·정서프",
+    "confidence": "medium"
+  },
+  {
+    "title": "광양시 드림스타트, 밑반찬 정기 지원 업무협약 체결",
+    "body": "새글광양시 드림스타트, 밑반찬 정기 지원 업무협약 체결",
+    "url": "https://gwangyang.go.kr/board.es?mid=a11007000000&bid=0057&act=view&list_no=200433&tag=&nPage=1",
+    "published_at": null,
+    "source_name": "광양시 보도자료",
+    "source_type": "official_city",
+    "source_method": "html_board",
+    "trust_tier": 1,
+    "region": "광양시",
+    "category": "general",
+    "score": 9,
+    "score_components": {
+      "source": 5,
+      "region_in_title": 4,
+      "freshness": 0
+    },
+    "days_old": null,
+    "normalized_url": "https://gwangyang.go.kr/board.es",
+    "title_key": "광양시드림스타트,밑반찬정기지원업무협약체결",
+    "cluster_key": "광양시:general:드림스타트,밑반찬정기업무협약체결",
     "confidence": "medium"
   },
   {
@@ -980,7 +1188,7 @@
   },
   {
     "title": "2026년 「오천그린광장 맨발걷기 교실」 운영 및 참여자 모집 안내",
-    "body": "116812026년 「오천그린광장 맨발걷기 교실」 운영 및 참여자 모집 안내건강증진과2026-05-2988",
+    "body": "116812026년 「오천그린광장 맨발걷기 교실」 운영 및 참여자 모집 안내건강증진과2026-05-2997",
     "url": "https://www.suncheon.go.kr/kr/news/?boardId=BBS_0000000000000130&mode=view&cntId=12332&category=&pageIdx=",
     "published_at": "2026-05-29",
     "source_name": "순천시 시정소식",
@@ -1218,7 +1426,7 @@
   },
   {
     "title": "2026년 마을활동가 모집 안내",
-    "body": "116792026년 마을활동가 모집 안내자치행정과2026-05-28177",
+    "body": "116792026년 마을활동가 모집 안내자치행정과2026-05-28180",
     "url": "https://www.suncheon.go.kr/kr/news/?boardId=BBS_0000000000000130&mode=view&cntId=12330&category=&pageIdx=",
     "published_at": "2026-05-28",
     "source_name": "순천시 시정소식",
@@ -1240,7 +1448,7 @@
   },
   {
     "title": "장천동 도시재생 프로그램 「몽미락 힐링투어」 운영 안내",
-    "body": "11678장천동 도시재생 프로그램 「몽미락 힐링투어」 운영 안내도시공간재생과2026-05-28174",
+    "body": "11678장천동 도시재생 프로그램 「몽미락 힐링투어」 운영 안내도시공간재생과2026-05-28175",
     "url": "https://www.suncheon.go.kr/kr/news/?boardId=BBS_0000000000000130&mode=view&cntId=12329&category=&pageIdx=",
     "published_at": "2026-05-28",
     "source_name": "순천시 시정소식",
@@ -1306,7 +1514,7 @@
   },
   {
     "title": "2026여수세계섬박람회 D-100 맞아 ‘다섬이 버스·홍보택시’ 달린다!",
-    "body": "30349행정2026여수세계섬박람회 D-100 맞아 ‘다섬이 버스·홍보택시’ 달린다!새로운글(재)2026여수세계섬박람회조직위원회2026-05-2870",
+    "body": "30349행정2026여수세계섬박람회 D-100 맞아 ‘다섬이 버스·홍보택시’ 달린다!새로운글(재)2026여수세계섬박람회조직위원회2026-05-2873",
     "url": "https://www.yeosu.go.kr/www/govt/news/release/press?idx=577576&mode=view",
     "published_at": "2026-05-28",
     "source_name": "여수시 보도자료",
@@ -1350,7 +1558,7 @@
   },
   {
     "title": "「2026 르무통 산책회 in 순천」 행사 안내",
-    "body": "11668「2026 르무통 산책회 in 순천」 행사 안내정원운영과2026-05-26692",
+    "body": "11668「2026 르무통 산책회 in 순천」 행사 안내정원운영과2026-05-26693",
     "url": "https://www.suncheon.go.kr/kr/news/?boardId=BBS_0000000000000130&mode=view&cntId=12319&category=&pageIdx=",
     "published_at": "2026-05-26",
     "source_name": "순천시 시정소식",
@@ -1368,6 +1576,28 @@
     "normalized_url": "https://suncheon.go.kr/kr/news",
     "title_key": "「2026르무통산책회in순천」행사안내",
     "cluster_key": "순천시:general:「2026르무통산책회in순천」행사",
+    "confidence": "medium"
+  },
+  {
+    "title": "광양꿈빛도서관, ‘북스타트 책놀이 프로그램’ 수강생 모집",
+    "body": "새글광양꿈빛도서관, ‘북스타트 책놀이 프로그램’ 수강생 모집",
+    "url": "https://gwangyang.go.kr/board.es?mid=a11007000000&bid=0057&act=view&list_no=200435&tag=&nPage=1",
+    "published_at": null,
+    "source_name": "광양시 보도자료",
+    "source_type": "official_city",
+    "source_method": "html_board",
+    "trust_tier": 1,
+    "region": "광양시",
+    "category": "general",
+    "score": 5,
+    "score_components": {
+      "source": 5,
+      "freshness": 0
+    },
+    "days_old": null,
+    "normalized_url": "https://gwangyang.go.kr/board.es",
+    "title_key": "광양꿈빛도서관,‘북스타트책놀이프로그램’수강생모집",
+    "cluster_key": "광양시:general:광양꿈빛도서관,‘북스타트책놀이프로",
     "confidence": "medium"
   },
   {
@@ -1763,7 +1993,7 @@
   },
   {
     "title": "석면해체제거 작업장 공개(2026.4.1~2026.5.31)",
-    "body": "6,580석면해체제거 작업장 공개(2026.4.1~2026.5.31)환경관리과2026-05-2827",
+    "body": "6,580석면해체제거 작업장 공개(2026.4.1~2026.5.31)환경관리과2026-05-2828",
     "url": "https://www.jangheung.go.kr/www/organization/news/notice?idx=374487&mode=view",
     "published_at": "2026-04-01",
     "source_name": "장흥군 보도자료",

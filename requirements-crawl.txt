@@ -1,0 +1,10 @@
+# JS-rendering fallback environment (separate from the python 3.9 pipeline).
+# crawl4ai needs python 3.10+, so install into a dedicated venv:
+#
+#   python3.13 -m venv .venv-crawl
+#   .venv-crawl/bin/pip install -r requirements-crawl.txt
+#   .venv-crawl/bin/python -m playwright install chromium
+#
+# http_client.fallback_fetch shells out to .venv-crawl for boards marked
+# "render": true in config/sources.json.
+crawl4ai>=0.8

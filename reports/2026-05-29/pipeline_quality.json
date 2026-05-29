@@ -1,21 +1,22 @@
 {
   "date": "2026-05-29",
   "counts": {
-    "raw": 170,
-    "scored": 81,
+    "raw": 180,
+    "scored": 91,
     "cards": 1
   },
   "source_counts": {
     "official_province": 10,
     "national_media_rss": 50,
     "media_rss_candidate": 40,
-    "official_city": 45,
+    "official_city": 55,
     "official_county": 25
   },
   "region_counts": {
     "목포시": 15,
     "순천시": 16,
     "여수시": 16,
+    "광양시": 10,
     "나주시": 3,
     "무안군": 1,
     "고흥군": 4,
@@ -27,8 +28,8 @@
   "category_counts": {
     "welfare": 15,
     "agri_marine": 5,
-    "general": 28,
-    "culture": 19,
+    "general": 37,
+    "culture": 20,
     "safety": 7,
     "economy": 7
   },
