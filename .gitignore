@@ -6,3 +6,6 @@ node_modules/
 tmp/
 
 .venv-crawl/
+scripts/*.log
+scripts/d3.json
+scripts/discover2.json
