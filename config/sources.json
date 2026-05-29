@@ -40,6 +40,30 @@
       },
       "source_type": "official_city",
       "trust_tier": 1
+    },
+    {
+      "region": "장흥군",
+      "source_name": "장흥군 보도자료",
+      "url": "https://www.jangheung.go.kr/www/organization/news",
+      "list_selector": "tbody tr",
+      "item": {
+        "title": "a",
+        "url": "a@href"
+      },
+      "source_type": "official_county",
+      "trust_tier": 1
+    },
+    {
+      "region": "함평군",
+      "source_name": "함평군 보도자료",
+      "url": "https://www.hampyeong.go.kr/boardList.do?boardId=NEWS&pageId=www275",
+      "list_selector": "div.subject",
+      "item": {
+        "title": "a.new",
+        "url": "a.new@href"
+      },
+      "source_type": "official_county",
+      "trust_tier": 1
     }
   ]
 }

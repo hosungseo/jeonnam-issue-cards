@@ -33,7 +33,8 @@ CITY_SLUGS = {
     "완도군": "wando", "진도군": "jindo", "신안군": "shinan",
 }
 
-PRESS_KEYWORDS = ("보도자료", "언론보도", "보도 자료", "새소식", "시정소식", "군정소식")
+PRESS_KEYWORDS = ("보도자료", "보도/해명", "보도·해명", "언론보도", "보도 자료",
+                  "새소식", "시정소식", "군정소식", "보도 ", "보도자료실")
 
 MOKPO_PATTERN = {
     "list_selector": "div.item",
@@ -87,7 +88,16 @@ def probe(region: str, slug: str) -> dict:
             "source_type": "official_city" if region.endswith("시") else "official_county",
             "trust_tier": 1,
         }
-        return {"region": region, "status": "ok", "items": hits, "entry": entry}
+        return {"region": region, "status": "ok_mokpo", "items": hits, "entry": entry}
+
+    # fall back to generic structure inference
+    from analyze_board import analyze
+    inferred = analyze(press_url, region)
+    if inferred.get("status") == "ok" and inferred.get("unit_count", 0) >= 5:
+        return {"region": region, "status": "ok_inferred",
+                "items": inferred["unit_count"],
+                "sample_title": inferred.get("sample_title"),
+                "entry": inferred["entry"]}
     return {"region": region, "status": "unknown_structure", "url": press_url}
 
 
@@ -108,12 +118,12 @@ def main() -> None:
         r = probe(region, slug)
         results.append(r)
         status = r["status"]
-        extra = f" items={r.get('items')}" if status == "ok" else ""
+        extra = f" items={r.get('items')} title={r.get('sample_title','')[:24]}" if status.startswith("ok") else ""
         print(f"{region:5} {status}{extra}  {r.get('url', r.get('base',''))}", file=sys.stderr)
-        if status == "ok":
+        if status.startswith("ok"):
             discovered.append(r["entry"])
 
-    ok = sum(1 for r in results if r["status"] == "ok")
+    ok = sum(1 for r in results if r["status"].startswith("ok"))
     print(f"\n[summary] ok={ok}/{len(results)}", file=sys.stderr)
 
     if args.write and discovered:

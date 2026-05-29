@@ -1,15 +1,16 @@
 {
   "date": "2026-05-29",
   "counts": {
-    "raw": 145,
-    "scored": 57,
+    "raw": 170,
+    "scored": 81,
     "cards": 1
   },
   "source_counts": {
     "official_province": 10,
     "national_media_rss": 50,
     "media_rss_candidate": 40,
-    "official_city": 45
+    "official_city": 45,
+    "official_county": 25
   },
   "region_counts": {
     "목포시": 15,
@@ -18,16 +19,18 @@
     "나주시": 3,
     "무안군": 1,
     "고흥군": 4,
+    "장흥군": 14,
+    "함평군": 10,
     "장성군": 1,
     "화순군": 1
   },
   "category_counts": {
-    "welfare": 10,
-    "agri_marine": 3,
-    "general": 18,
-    "culture": 16,
-    "safety": 6,
-    "economy": 4
+    "welfare": 15,
+    "agri_marine": 5,
+    "general": 28,
+    "culture": 19,
+    "safety": 7,
+    "economy": 7
   },
   "multi_source_clusters": {},
   "warnings": [],

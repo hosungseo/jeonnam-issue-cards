@@ -102,7 +102,7 @@ class HtmlBoardAdapter(SourceAdapter):
             if url:
                 url = urljoin(self.url, url)
             published = _normalize_date(
-                _extract(row, self.item_sel.get("date", "")),
+                _extract(row, self.item_sel.get("date") or ""),
                 self.item_sel.get("date_format"),
             )
             items.append(make_item(
