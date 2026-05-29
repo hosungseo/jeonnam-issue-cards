@@ -105,6 +105,20 @@
       },
       "source_type": "official_county",
       "trust_tier": 1
+    },
+    {
+      "region": "영광군",
+      "source_name": "영광군 보도자료",
+      "url": "https://www.yeonggwang.go.kr/bbs/?b_id=news_data&site=headquarter_new&mn=9056&type=lists",
+      "list_selector": "tr",
+      "item": {
+        "title": "td.txt_l a",
+        "url": "td.txt_l a@href",
+        "date": "td.t_date",
+        "date_format": "%Y-%m-%d"
+      },
+      "source_type": "official_county",
+      "trust_tier": 1
     }
   ]
 }
